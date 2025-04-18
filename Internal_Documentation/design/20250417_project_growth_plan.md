@@ -1,6 +1,6 @@
 ```mermaid
 mindmap
-  root((boilerplate (finished 2025_04_12)))
+  root((boilerplate))
     launch page in vue
       dashboard menu in vue
       ::icon(mdi menu-close)
