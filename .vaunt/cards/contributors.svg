@@ -16,12 +16,12 @@
 		<![CDATA[
 			#carrousel {
 			  overflow: hidden;
-			  animation: carrousel 22s linear infinite;
+			  animation: carrousel 24s linear infinite;
 			}
 	  
 			@keyframes carrousel {
 			  0% { transform: translateX(1080px); }
-			  100% { transform: translateX(-360px); }
+			  100% { transform: translateX(-720px); }
 			}
 		  ]]>
 		.st1{fill:#F9F9F9;}
@@ -68,12 +68,22 @@
 					<text x="175" y="285" dominant-baseline="middle" text-anchor="middle" class="st6 st3 st7">joncherry </text>
 					<rect x="25" y="310" rx="5" ry="5" width="300" height="5" style=" fill:#D1232A"/>
 					<text x="175" y="360" dominant-baseline="middle" text-anchor="middle" class="st8 st3 st9">contributions:</text>
-					<text x="175" y="430" text-anchor="middle" class="st6 st3 st10">6</text>
+					<text x="175" y="430" text-anchor="middle" class="st6 st3 st10">16</text>
+				</g>
+				
+			
+				<g transform="translate(360, 0)">
+					<rect x="0" y="0" rx="20" ry="20" width="350" height="500" style=" fill: url(#card-bg);"/>
+					<image href="data:image/png;base64,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" x="75" y="50" width="200" height="200" clip-path="url(#avatar-clip)"/>
+					<text x="175" y="285" dominant-baseline="middle" text-anchor="middle" class="st6 st3 st7">github-actions[bot] </text>
+					<rect x="25" y="310" rx="5" ry="5" width="300" height="5" style=" fill:#D1232A"/>
+					<text x="175" y="360" dominant-baseline="middle" text-anchor="middle" class="st8 st3 st9">contributions:</text>
+					<text x="175" y="430" text-anchor="middle" class="st6 st3 st10">1</text>
 				</g>
 				
 			
 
-			<g transform="translate(360, 0)">
+			<g transform="translate(720, 0)">
 				<g transform="translate(0, 0)">
 					<rect x="0" y="0" rx="20" ry="20" width="1070" height="500" style=" fill: url(#card-bg);"/>
 					<text x="535" y="250" dominant-baseline="middle" text-anchor="middle" class="st6 st3 st15">Community Contributors</text>
