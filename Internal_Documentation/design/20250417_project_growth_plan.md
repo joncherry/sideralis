@@ -1,7 +1,8 @@
 ```mermaid
+%%{init: {'theme':'neutral'}}%%
 mindmap
-  root((boilerplate >finished 2025_04_12))
-    launch page in vue
+  root((boilerplate\nfinished 2025_04_12))
+    welcome page in vue
       dashboard menu in vue
       ::icon(mdi menu-close)
         marketing data AI prompts in python or golang
