@@ -3,7 +3,7 @@ flowchart TD
     id1["`boilerplate
     finished 2025_04_12`"]
     id2["`welcome page in vue`"]
-    A@{ img: "./Internal_Documentation/design/menu-close.png" }
+    A[dashboard menu in vue]
     id3["`marketing data AI prompts in python or golang`"]
     id4["`data save logic`"]
     id5["`python video clip editing`"]
