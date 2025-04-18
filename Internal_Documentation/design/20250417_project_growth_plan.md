@@ -1,27 +1,27 @@
 ```mermaid
 flowchart TD
-    id1["`boilerplate
+    boil["`:bricks: boilerplate
     finished 2025_04_12`"]
-    id2["`welcome page in vue`"]
-    A["`dashboard menu in vue ![test image!](./Internal_Documentation/design/menu-close.png) `"]
-    id3["`marketing data AI prompts in python or golang`"]
-    id4["`data save logic`"]
-    id5["`python video clip editing`"]
-    id6["`marketing data page in vue`"]
-    id7["`AI generated marketing campaign schedule page`"]
-    id8["`AI generated video message editing page`"]
-    id9["`compiled video review page`"]
-    id1 --> id2
-    id2 --> A
-    A --> id3
-    A --> id6
-    id3 --> id6
-    id6 --> id4
-    id4 --> id7
-    id6 --> id7
-    id7 --> id8
-    id8 --> id5
-    id5 --> id9
-    id8 --> id9
+    welcome["`:wave: welcome page in vue`"]
+    dash["`:bookmark_tabs: dashboard menu in vue`"]
+    prompts["`:robot: marketing data AI prompts in python or golang`"]
+    save["`:robot: data save logic`"]
+    clips["`:robot: python video clip editing`"]
+    data["`:page_facing_up: marketing data page in vue`"]
+    schedule["`:robot: :calendar: AI generated marketing campaign schedule page`"]
+    message["`:robot: :page_facing_up: AI generated video message editing page`"]
+    result["`:page_facing_up: compiled video review page`"]
+    boil --> welcome
+    welcome --> dash
+    dash --> prompts
+    dash --> data
+    prompts --> data
+    schedule --> save
+    save --> message
+    data --> schedule
+    schedule --> message
+    message --> clips
+    clips --> result
+    message --> result
 
 ```
