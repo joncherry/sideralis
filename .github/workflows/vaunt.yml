@@ -1,8 +1,7 @@
 name: Vaunt Cards Update
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types: [opened, review_requested]
 
 jobs:
   my_job:
