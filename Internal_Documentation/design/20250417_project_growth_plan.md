@@ -15,10 +15,13 @@ flowchart TD
     id2 --> A
     A --> id3
     A --> id6
-    id3 --> id4
+    id3 --> id6
+    id6 --> id4
     id4 --> id7
     id6 --> id7
     id7 --> id8
+    id8 --> id5
+    id5 --> id9
     id8 --> id9
 
 ```
