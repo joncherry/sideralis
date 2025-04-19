@@ -1,0 +1,66 @@
+---
+Config:
+    Theme: dark
+    look: Classic
+---
+flowchart TD
+    start@{ shape: sm-circ, label: "Small start" }
+    stage1@{ icon: "mdi:abacus", form: "circle", label: "stage1", pos: "b", h: 60 }
+    boil@{ icon: "mdi:wall", form: "circle", label: "boilerplate
+    finished 2025_04_12", pos: "b", h: 60 }
+    welcome@{ icon: "mdi:human-greeting-variant", form: "circle", label: "welcome page in vue", pos: "b", h: 60 }
+    dash@{ icon: "mdi:menu-close", form: "circle", label: "dashboard menu in vue", pos: "b", h: 60 }
+    server@{ icon: "mdi:key-chain", form: "circle", label: "server for auth keys in golang", pos: "b", h: 60 }
+    prompts@{ icon: "mdi:robot-happy", form: "circle", label: "marketing data AI prompts in python or golang", pos: "b", h: 60 }
+    save@{ icon: "mdi:file-outline", form: "circle", label: "data save logic", pos: "b", h: 60 }
+    clips@{ icon: "mdi:film", form: "circle", label: "python video clip editing", pos: "b", h: 60 }
+    data@{ icon: "mdi:data-matrix-edit", form: "circle", label: "marketing data page in vue", pos: "b", h: 60 }
+    schedule@{ icon: "mdi:calendar-clock-outline", form: "circle", label: "AI generated marketing campaign schedule page", pos: "b", h: 60 }
+    message@{ icon: "mdi:format-list-text", form: "circle", label: "AI generated video message editing page", pos: "b", h: 60 }
+    result@{ icon: "mdi:package-variant-closed-check", form: "circle", label: "compiled video review page", pos: "b", h: 60 }
+
+    stage2@{ icon: "mdi:abacus", form: "circle", label: "stage2", pos: "b", h: 60 }
+    social1@{ icon: "mdi:integrated-circuit-chip", form: "circle", label: "social media api integrations in golang", pos: "b", h: 60 }
+    social2@{ icon: "mdi:login-variant", form: "circle", label: "social media connect page in vue", pos: "b", h: 60 }
+    post@{ icon: "mdi:post", form: "circle", label: "AI content posting page in vue", pos: "b", h: 60 }
+
+    start e1@==> stage1
+    start e2@==> stage2
+    stage1 e3@==> boil
+    boil e4@==> welcome
+    welcome e5@==> dash
+    dash e6@==> server
+    server e7@==> prompts
+    server e8@==> data
+    prompts e9@==> data
+    schedule e10@==> save
+    save e11@==> message
+    data e12@==> schedule
+    schedule e13@==> message
+    message e14@==> clips
+    clips e15@==> result
+    message e16@==> result
+
+    stage2 e17@==> social1
+    social1 e18@==> social2
+    social2 e19@==> post
+
+    e1@{ animate: true }
+    e2@{ animate: true }
+    e3@{ animate: true }
+    e4@{ animate: true }
+    e5@{ animate: true }
+    e6@{ animate: true }
+    e7@{ animate: true }
+    e8@{ animate: true }
+    e9@{ animate: true }
+    e10@{ animate: true }
+    e11@{ animate: true }
+    e12@{ animate: true }
+    e13@{ animate: true }
+    e14@{ animate: true }
+    e15@{ animate: true }
+    e16@{ animate: true }
+    e17@{ animate: true }
+    e18@{ animate: true }
+    e19@{ animate: true }
